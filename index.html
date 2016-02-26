@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Online Blackjack</title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+		<div id="wrapper">
+			<div id="header">
+				<div id="menu">
+					<ul>
+						<li id="newGame">New Game</li>
+						<li>Rules</li>
+						<li>Options</li>
+						<li>About</li>
+						<li>Contact</li>
+					</ul>
+				</div>
+				<div class="clear">
+				</div>
+			</div>
+
+			<div id="maintable">
+				<div id="player1">
+					<div class="cards">
+					</div>
+					<div class="chip">
+						<p>Player</p>
+						<p>Chip:<span id="total1"></span></p>
+						<select id="bet">
+							<option value="0" selected>
+								<value></value>
+							</option>
+							<option value="25">
+								<value>25</value>
+							</option>
+							<option value="50">
+								<value>50</value>
+							</option>
+							<option value="75">
+								<value>75</value>
+							</option>
+							<option value="100">
+								<value>100</value>
+							</option>
+						</select></br>
+						<p>
+							<button id="betButton">Bet</button>
+							<button id="hit" disabled>Hit</button>
+							<button id="stand">Stand</button>
+							<button id="new-deal">New Deal</button>
+						</p>
+					</div>
+				</div>
+					<div id="bank">
+						<div class="cards">
+						</div>
+						<div id="pot">
+							<p>Pot:<span id="total_pot"></span></p>
+							<p>Bank</p>
+						</div>
+					</div>
+			</div>
+		
+		</div>
+		<script src="http://code.jquery.com/jquery-2.1.3.js" type="text/javascript"></script>
+		<script src="blackjack.js" type="text/javascript"></script>
+	</body>
+</html>

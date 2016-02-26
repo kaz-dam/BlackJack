@@ -1,0 +1,117 @@
+body {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	font-family: sans-serif;
+}
+
+img {
+	padding: 0;
+	margin: 0;
+	box-shadow: 0 0 10px 2px rgba(0,0,0,.4);
+}
+
+p {
+	font-size: 1.2em;
+}
+
+#wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(images/table.jpg);
+	background-size: cover;
+	overflow: hidden;
+}
+
+#header {
+	width: 100%;
+	background-color: white;
+	box-shadow: 0 0 10px 2px rgba(0,0,0,.4);
+}
+
+.clear {
+	clear: both;
+}
+
+#menu {
+	float: right;
+}
+
+#menu ul {
+	padding: 0;
+	margin: auto;
+}
+
+#menu ul li {
+	text-transform: uppercase;
+	list-style: none;
+	display: block;
+	float: left;
+	line-height: 55px;
+	padding-right: 50px;
+	padding-left: 50px;
+	transition: all 0.3s;
+}
+
+#menu ul li:hover {
+	background-color: rgba(0,0,0,.7);
+	color: white;
+	cursor: pointer;
+}
+
+#maintable {
+	margin: auto;
+}
+
+.cards {
+	padding: 0;
+	height: 200px;
+}
+
+#player1 {
+	position: absolute;
+	bottom: 0;
+	margin: auto;
+	left: 10%;
+	width: 80%;
+}
+
+.chip {
+	background-color: white;
+	text-align: center;
+	box-shadow: 0 0 10px 2px rgba(0,0,0,.4);
+}
+
+.chip p button {
+	width: 200px;
+	height: 30px;
+	margin: 10px;
+	background-color: rgba(0,0,0,.1);
+	color: black;
+	cursor: pointer;
+}
+
+.chip p button:disabled {
+	background-color: rgba(0,0,0,.3);
+	cursor: auto;
+}
+
+#bank {
+	position: relative;
+	width: 40%;
+	margin: auto;
+	margin-top: 50px;
+}
+
+#pot {
+	background-color: white;
+	width: 100%;
+	height: 100px;
+	box-shadow: 0 0 10px 2px rgba(0,0,0,.4);
+	text-align: center;
+	position: absolute;
+	top: 200px;
+}
